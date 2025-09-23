@@ -1,9 +1,9 @@
-# 🎮 Number Guessing Game (Go CLI)
+# Number Guessing Game (Go CLI)
 
 A fun, CLI-based number guessing game written in **Go**.  
 The computer picks a random number between **1 and 100**, and your task is to guess it within a limited number of chances depending on the difficulty you choose.
 
-## 🚀 Features
+## Features
 - Welcome screen with rules.
 - Random number generation between **1–100**.
 - Difficulty levels:
@@ -13,10 +13,10 @@ The computer picks a random number between **1 and 100**, and your task is to gu
 - Feedback on each guess (`greater` or `less`).
 - Congratulatory message with number of attempts on success.
 - Game ends when:
-  - You guess correctly ✅  
-  - You run out of chances ❌  
+  - You guess correctly 
+  - You run out of chances 
 
-## 📖 Sample Gameplay
+## Sample Gameplay
 
 ```plaintext
 Welcome to the Number Guessing Game!
@@ -38,7 +38,7 @@ Enter your guess: 30
 🎉 Congratulations! You guessed the correct number in 4 attempts.
 ```
 
-## 🛠️ Installation & Usage
+## Installation & Usage
 
 1. **Clone the repository**
 
@@ -64,7 +64,7 @@ Enter your guess: 30
 
 
 
-## 🧑‍💻 Tech Stack
+## Tech Stack
 
 * **Language**: Go (Golang)
 * **Type**: CLI application
