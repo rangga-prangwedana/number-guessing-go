@@ -1,11 +1,12 @@
 package main
 
 import (
-	"fmt"
-	"time"
+	"bufio"
+	"os"
 )
 
 func main() {
-	fmt.Println("Hello test")
-	fmt.Println("The time now is", time.Now().UnixNano())
+	reader := bufio.NewReader(os.Stdin)
+	game := game.NewGame(reader)
+	g.Play()
 }
